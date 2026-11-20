@@ -1,3 +1,5 @@
+const popup = any;
+var isVisible_PopUp;
 var isVisible_PopUp1 = 0;
 
 const PopUp1 = document.getElementById("popup1");
