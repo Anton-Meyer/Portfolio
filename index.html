@@ -5,19 +5,20 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" type="module"></script>
 </head>
 
     <body>
 
         <header>
             <div class="container-header">
-                <h1 class="name-logo">Anton Meyer</h1>
+                <h1 class="name-logo" id="name-logo">Anton Meyer</h1>
                 <nav class="page-selection">
-                    <P class="menu-point">Home</P>
-                    <p class="menu-point">Datenbankensysteme</p>
-                    <p class="menu-point">Softwareentwicklung</p>
-                    <p class="menu-point">Design</p>
-                    <p class="menu-point">3D Modellierung</p>
+                    <p class="menu-point" id="Home">Home</a>
+                    <p class="menu-point" id="Datenbankensysteme">Datenbankensysteme</a>
+                    <p class="menu-point" id="Softwareentwicklung">Softwareentwicklung</a>
+                    <p class="menu-point" id="Design">Design</p>
+                    <p class="menu-point" id="Modellierung">3D Modellierung</p>
                 </nav>
             </div>
         </header>
@@ -30,42 +31,49 @@
                 </div>
                 
                 <div class="grid-container">
-                    <div class="grid-item">
+                    <div class="grid-item" id="grid-item1">
                         <h3>Column 1</h3>
                         <img src="media\PXL_20260612_154000289(1).jpg" class="preview-img">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.</p>
-                        <a href="#">Details</a>
+                        <a>Details</a>
                     </div>
                     
-                    <div class="grid-item">
+                    <div class="grid-item" id="grid-item2">
                         <h3>Column 2</h3>
+                        <img src="media\PXL_20260612_154000289(1).jpg" class="preview-img">
                         <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-                        <a href="#">Read More</a>
+                        <a>Details</a>
                     </div>
-                    
-                    <div class="grid-item">
+
+                    <div class="grid-item" id="grid-item3">
                         <h3>Column 3</h3>
-                        <p>Fusce tincidunt est non libero ultrices, eu finibus nulla efficitur. Praesent pellentesque quam.</p>
-                        <a href="#">Read More</a>
+                        <img src="media\PXL_20260612_154000289(1).jpg" class="preview-img">
+                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                        <a>Details</a>
                     </div>
-                    
-                    <div class="grid-item">
+
+                    <div class="grid-item" id="grid-item4">
                         <h3>Column 4</h3>
-                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                        <a href="#">Read More</a>
+                        <img src="media\PXL_20260612_154000289(1).jpg" class="preview-img">
+                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                        <a>Details</a>
                     </div>
-                    
-                    <div class="grid-item">
+
+                    <div class="grid-item" id="grid-item5">
                         <h3>Column 5</h3>
-                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        <a href="#">Read More</a>
+                        <img src="media\PXL_20260612_154000289(1).jpg" class="preview-img">
+                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                        <a>Details</a>
+                    </div>
+
+                    <div class="grid-item" id="grid-item6">
+                        <h3>Column 6</h3>
+                        <img src="media\PXL_20260612_154000289(1).jpg" class="preview-img">
+                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                        <a>Details</a>
                     </div>
                     
-                    <div class="grid-item">
-                        <h3>Column 6</h3>
-                        <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                        <a href="#">Read More</a>
-                    </div>
+
                 </div>
             </div>
         </main>
@@ -74,13 +82,61 @@
         <!--Pop-Ups-->
         <div class="popup-container" id="popup1">
             <div class="popup">
-                <img class="popup-close-btn" src="media/icons-close-button.png">
+                <img class="popup-close-btn" id="popup-close-btn1" src="media/icons-close-button.png">
                 <div class="popup-content">
                     <img class="popup-img" src="media\PXL_20260612_154000289(1).jpg">
-                    <p class="popup-text">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    <p class="popup-text">1Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
                 </div>
             </div>
         </div>
+                <div class="popup-container" id="popup2">
+            <div class="popup">
+                <img class="popup-close-btn" id="popup-close-btn2" src="media/icons-close-button.png">
+                <div class="popup-content">
+                    <img class="popup-img" src="media\PXL_20260612_154000289(1).jpg">
+                    <p class="popup-text">2Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                </div>
+            </div>
+        </div>
+        </div>
+                <div class="popup-container" id="popup3">
+            <div class="popup">
+                <img class="popup-close-btn" id="popup-close-btn3" src="media/icons-close-button.png">
+                <div class="popup-content">
+                    <img class="popup-img" src="media\PXL_20260612_154000289(1).jpg">
+                    <p class="popup-text">3Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="popup-container" id="popup4">
+            <div class="popup">
+                <img class="popup-close-btn" id="popup-close-btn4" src="media/icons-close-button.png">
+                <div class="popup-content">
+                    <img class="popup-img" src="media\PXL_20260612_154000289(1).jpg">
+                    <p class="popup-text">4Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                </div>
+            </div>
+        </div>
+        <div class="popup-container" id="popup5">
+            <div class="popup">
+                <img class="popup-close-btn" id="popup-close-btn5" src="media/icons-close-button.png">
+                <div class="popup-content">
+                    <img class="popup-img" src="media\PXL_20260612_154000289(1).jpg">
+                    <p class="popup-text">5Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                </div>
+            </div>
+        </div>
+        <div class="popup-container" id="popup6">
+            <div class="popup">
+                <img class="popup-close-btn" id="popup-close-btn6" src="media/icons-close-button.png">
+                <div class="popup-content">
+                    <img class="popup-img" src="media\PXL_20260612_154000289(1).jpg">
+                    <p class="popup-text">6Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                </div>
+            </div>
+        </div>
+
 
         <footer>
             <div class="container">
