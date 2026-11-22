@@ -149,7 +149,7 @@ closeBtn6.addEventListener('click', function(){
 //zwischen den Seiten wechseln
 const nameLogo = document.getElementById('name-logo');
 const home = document.getElementById('Home');
-const datenbankensysteme = document.getElementById('Datenbankensysteme');
+const datenbanksysteme = document.getElementById('Datenbanksysteme');
 const softwareentwicklung = document.getElementById('Softwareentwicklung');
 const design = document.getElementById('Design');
 const modellierung = document.getElementById('Modellierung');
@@ -162,8 +162,8 @@ home.addEventListener('click', function(){
     window.location.href = 'index.html';
 })
 
-datenbankensysteme.addEventListener('click', function(){
-    window.location.href = 'Datenbankensysteme.html';
+datenbanksysteme.addEventListener('click', function(){
+    window.location.href = 'Datenbanksysteme.html';
 })
 
 softwareentwicklung.addEventListener('click', function(){

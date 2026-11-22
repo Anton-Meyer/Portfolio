@@ -156,7 +156,13 @@ header {
 }
 
 .popup-img{
-    max-width: 70vw;
+    object-fit: contain;
+    max-width: 50%;
+    max-height: 95%;
+    height: auto;
+    width: auto;
+    left: 0px;
+    top: 0px;
     /* max-height: 50vh; */
 }
 
