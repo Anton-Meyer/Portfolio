@@ -67,17 +67,25 @@ header {
 
 
 .container {
-    width: 100%;
+    width: 90%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .grid-container {
+    position: relative;
+    left: 5%;
+    /* border: 2px solid red; */
+    width: 90%;
+    max-width: 1200px;
     display: grid;
-    grid-auto-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: center;
     gap: 30px;
     padding: 20px 0 60px;
 }
@@ -85,22 +93,25 @@ header {
 .grid-item {
     cursor: pointer;
     text-align: center;
-    padding: 20px;
+    padding: 20px 20px 20px 20px;
     background: #f8f8f8;
     border-radius: 5px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: column;
+    max-width: 300px;
+    height: auto;
+    
 }
 .grid-item:hover{
     transform: scale(1.1);
 }
 
 .preview-img{
-    max-height: 30vh;
-    max-width: 50vw;
-    object-fit: contain;
+    position: relative;
+    max-width: 90%;
+    left: 5%;
 }
 
 .popup-container{
