@@ -133,9 +133,12 @@ header {
     border-radius: 5px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: column;
+    align-items: center;
+    align-content: space-around;
     max-width: 300px;
+    min-height: 500px;
     height: auto;
     
 }
@@ -146,7 +149,8 @@ header {
 .preview-img{
     position: relative;
     max-width: 90%;
-    left: 5%;
+    max-height: 300px;
+    /* left: 5%; */
 }
 
 .popup-container{
